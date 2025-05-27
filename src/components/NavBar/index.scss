@@ -1,0 +1,38 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+
+  &__area {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__center {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__arrowBackIcon {
+    width: 42px;
+    height: 42px;
+  }
+}

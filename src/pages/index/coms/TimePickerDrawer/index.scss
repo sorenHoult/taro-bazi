@@ -1,0 +1,40 @@
+.historyDrawer {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+  }
+
+  &__title {
+    font-size: 36px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__titleDesc {
+    font-size: 24px;
+    color: #999;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
+
+  &__icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  &__content {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__contentBottom {
+    padding-bottom: 24px;
+  }
+
+  &__footer {
+  }
+}

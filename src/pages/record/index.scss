@@ -1,0 +1,26 @@
+.record {
+  &__card {
+    padding: 12px 32px;
+  }
+
+  &__tip {
+    font-size: 28px;
+    color: #aaa;
+    margin: 0 8px;
+  }
+
+  &__item {
+    background-color: #f5f5f7;
+    margin: 12px 0;
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  &__itemTime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    color: #000;
+  }
+}

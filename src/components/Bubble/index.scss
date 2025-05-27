@@ -1,0 +1,40 @@
+$at-drawer-duration: 300ms;
+
+.bubble {
+  position: relative;
+
+  &__mask {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity $at-drawer-duration cubic-bezier(0.36, 0.66, 0.04, 1);
+  }
+
+  &__content {
+    position: absolute;
+    top: calc(100% + 24px);
+    right: 0;
+    z-index: 1002;
+    min-width: 200px;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+      0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+  }
+
+  &__arrow {
+    position: absolute;
+    top: -24px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width: 14px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+  }
+}

@@ -1,0 +1,20 @@
+.page__bg {
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.rowBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowFlexEnd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

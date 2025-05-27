@@ -1,0 +1,21 @@
+.radioGroup {
+  &__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 32px;
+  }
+
+  &__item {
+    flex: 1;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    border-radius: 32px;
+  }
+
+  &__activeItem {
+    background-color: #000;
+    color: #fff;
+  }
+}

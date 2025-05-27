@@ -1,0 +1,38 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "taro-bazi",
+  "description": "",
+  "appid": "",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false,
+    "uglifyFileName": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.30.4",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "/projectmaps",
+        "type": "folder"
+      }
+    ],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

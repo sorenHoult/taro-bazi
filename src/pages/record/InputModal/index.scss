@@ -1,0 +1,18 @@
+.inputModal {
+  &__content {
+    max-height: 800px;
+    padding: 24px;
+    border-radius: 18px;
+  }
+
+  &__input {
+    height: 120px;
+    line-height: 120px;
+  }
+
+  &__btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 32px;
+  }
+}
