@@ -25,7 +25,10 @@ module.exports = {
     },
   },
   h5: {
-    publicPath: "./",
+    publicPath: '/bazi/',
+    router: {
+      basename: '/bazi' // 加上这个是为了组件路由识别
+    }
     /**
      * WebpackChain 插件配置
      * @docs https://github.com/neutrinojs/webpack-chain

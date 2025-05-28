@@ -23,6 +23,7 @@
 ## 预览
 
 <img src="./public/preview.gif" width="200" />
+<img src="./public/chat.gif" width="400" />
 
 ## 使用
 
@@ -53,6 +54,12 @@ yarn build:h5
 ```bash
 yarn dev:weapp
 ```
+
+## 交流
+
+<p>QQ交流群</p>
+
+<img src="./public/qq.png" width="250" />
 
 ## 开源协议
 

@@ -25,13 +25,12 @@
 - 🔍 **Heavenly Stems & Earthly Branches reverse lookup**: Check if a certain Bazi chart exists within a specific year range  
 - 🎓 **Built-in celebrity cases**: Includes real Bazi data of public figures for learning and reference
 
----
 
 ## Preview
 
 <img src="./public/preview.gif" width="200" />
+<img src="./public/chat.gif" width="400" />
 
----
 
 ## Getting Started
 
