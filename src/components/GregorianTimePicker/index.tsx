@@ -129,7 +129,6 @@ export default class GregorianTimePicker extends Component<any, any> {
             <PickerView
               immediateChange
               className="pick-view"
-              indicatorStyle="height: 50px;"
               value={selectIndexList}
               onChange={this.changeHandel}
             >

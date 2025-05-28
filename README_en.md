@@ -14,6 +14,8 @@
 
 **taro-bazi** is a Bazi (Four Pillars of Destiny) charting tool built with **Taro (React)**. It supports **WeChat Mini Programs** and **H5 web** platforms. The project is purely frontend-based and does not require any API calls.
 
+📱 This project is primarily optimized for WeChat Mini Programs. Minor style deviations may occur on the H5 version.
+
 ### Key Features
 
 - ✅ **Fully frontend**: No backend or API dependencies, works out of the box  
@@ -27,7 +29,7 @@
 
 ## Preview
 
-<img src="./src/assets//images/preview.gif" width="200" />
+<img src="./public/preview.gif" width="200" />
 
 ---
 

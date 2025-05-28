@@ -101,7 +101,6 @@ export default class YearRangePicker extends Component<any, any> {
             <PickerView
               immediateChange
               className="pick-view"
-              indicatorStyle="height: 50px;"
               value={selectIndexList}
               onChange={this.changeHandel}
             >
